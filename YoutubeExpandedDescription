@@ -1,0 +1,8 @@
+! Always expanded video description
+www.youtube.com##ytd-watch-metadata, ytd-expander.ytd-video-secondary-info-renderer tp-yt-paper-button
+www.youtube.com###info-contents.ytd-watch-flexy[hidden], #meta-contents.ytd-watch-flexy[hidden], ytd-structured-description-content-renderer.ytd-video-secondary-info-renderer[hidden]:style(display: block !important)
+www.youtube.com##ytd-expander.ytd-video-secondary-info-renderer:style(margin: 0px !important)
+www.youtube.com##ytd-expander[collapsed] > #content.ytd-expander:style(max-height: none !important)
+www.youtube.com###description.ytd-video-secondary-info-renderer:style(max-width: none !important)
+! Auto-expand comments
+www.youtube.com###comment-content ytd-expander[should-use-number-of-lines][collapsed] > #content.ytd-expander:style(--ytd-expander-max-lines: none !important)
