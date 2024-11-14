@@ -1,0 +1,133 @@
+# X.com version
+! Removes Offer banner
+x.com##[aria-label*="Offer extended"]
+! Removes "get verified" when visiting your own profile
+x.com##[href="/i/premium_sign_up"]
+! Removes "Who to Follow" and displayed birthday from profile
+x.com##.profile-additional-birth-me.profile-additional-birth.profile-additional-thing
+x.com##[id="wtf"]
+! Twitter, Blocks turkey man's stupid changes.
+x.com##[href="/i/twitter_blue_sign_up"]
+x.com##[aria-label="Get Verified"]:upward(1)
+x.com##[data-testid="sidebarColumn"] [href="/i/topics/picker/home"]:upward(section)
+x.com##[aria-label$="trending now" i]
+x.com##[aria-label="who to follow" i]:upward(1)
+x.com###layers>div:last-of-type:has-text(Switch to the app)
+! x.com##div#layers div[data-testid="sheetDialog"]:upward(div[role="group"][tabindex="0"])
+x.com##html:style(overflow: auto !important;)
+! x.com##[role="presentation"]:has-text(/For you/)
+! Follow/Recommended Topic | "[Name of Topic] See more"
+x.com##article [aria-label^="Follow Topic"], article [aria-label^="Recommended Topic"]:upward(article):style(visibility: hidden !important)
+x.com##article [aria-label^="Follow Topic"], article [aria-label^="Recommended Topic"]:upward(article):style(height:0px !important)
+! You might like (Suggested tweet)
+x.com##article [d$="2.66 6 1H5z"]:upward(article):style(visibility: hidden !important)
+x.com##article [d$="2.66 6 1H5z"]:upward(article):style(height:0px !important)
+! My Timeline - no inserted sections (Who to follow/Topics to follow, etc.)
+x.com##[aria-label="Timeline: Your Home Timeline"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:first-child:has-text(/^Show \d\d? Tweets?$/)):not(:has(article, [href^="/i/status/"], [role="progressbar"])):style(visibility: hidden !important)
+x.com##[aria-label="Timeline: Your Home Timeline"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:first-child:has-text(/^Show \d\d? Tweets?$/)):not(:has(article, [href^="/i/status/"], [role="progressbar"])):style(height:0px !important)
+! Other Timelines - no inserted sections (Who to follow/Topics to follow, etc.)
+x.com##[aria-label$="’s Tweets"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(article, [href^="/i/status/"], [role="progressbar"])):style(visibility: hidden !important)
+x.com##[aria-label$="’s Tweets"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(article, [href^="/i/status/"], [role="progressbar"])):style(height:0px !important)
+! [User] follows / liked / retweeted
+x.com##article div>svg>g>[d^="M17.863 13.44c1.477"]:upward(article):style(visibility: hidden !important)
+x.com##article div>svg>g>[d^="M17.863 13.44c1.477"]:upward(article):style(height:0px !important)
+x.com##article>div:first-child>div:first-child>div:first-child>div:first-child [d$="4.17-.514 6.67z"]:upward(article):style(visibility: hidden !important)
+x.com##article>div:first-child>div:first-child>div:first-child>div:first-child [d$="4.17-.514 6.67z"]:upward(article):style(height:0px !important)
+x.com##:is([aria-label="Timeline: Your Home Timeline"]) article>div:first-child>div:first-child>div:first-child>div:first-child [d^="M4.75 3.79l4.603"]:upward(article):not(:has([data-testid="socialContext"]:has-text(/^You/))):style(visibility: hidden !important)
+x.com##:is([aria-label="Timeline: Your Home Timeline"]) article>div:first-child>div:first-child>div:first-child>div:first-child [d^="M4.75 3.79l4.603"]:upward(article):not(:has([data-testid="socialContext"]:has-text(/^You/))):style(height:0px !important)
+! [User] recieved a reply
+x.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/reply$/)):style(border: lightgreen 5px dotted !important)
+x.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/reply$/))+div:style(border: lightgreen 5px dotted !important)
+! [User] recieved replies
+x.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replies$/)):style(border: green 5px dotted !important)
+x.com##article>div:first-child:not(:last-child):upward([style*="position: absolute"]):style(border: 5px dotted orange !important)
+! [User] replied
+x.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replied$/)):style(border: violet 5px dotted !important)
+x.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replied$/))+div:style(border: violet 5px dotted !important)
+! "Official" label on posts and profiles
+x.com##[src$="/verified_stroke_1.png"]:upward(div:not(:empty)+div:last-of-type):style(border: dotted 2px grey !important;)
+! Discover more / More Tweets - Conversation view suggestions
+x.com##[aria-label="Timeline: Conversation"] [data-testid="cellInnerDiv"] h2:has-text(/^(Discover more|More Tweets)$/):upward([data-testid="cellInnerDiv"])
+x.com##[aria-label="Timeline: Conversation"] [data-testid="cellInnerDiv"] h2:has-text(/^(Discover more|More Tweets)$/):upward([data-testid="cellInnerDiv"])~div
+! ???
+x.com##[aria-label="Twitter Blue"]
+x.com##[aria-label="Verified"]
+x.com##[aria-label="Premium"]
+x.com##[aria-label="Subscribe to Premium"]
+x.com##[href="https://tweetdeck.x.com"]
+x.com##[href="https://ads.x.com/?ref=gl-tw-tw-twitter-ads-rweb"]
+x.com##[href="/jobs"]
+x.com##[aria-label*="View Tweet analytics"]
+x.com##div[aria-label="Timeline: Trending now"]
+x.com##[aria-label="Communities"]
+x.com##[aria-label="Grok"]
+x.com##[role="presentation"]:has-text(Highlights)
+x.com##[href="/i/verified-orgs-signup"]
+x.com##a[href="/explore/tabs/sports_unified"]
+x.com##a[href="/explore/tabs/entertainment_unified"]
+x.com##.r-6416eg[class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="css-"][class*="css-"][class*="css-"]:has-text(/Want to read the article first?/)
+
+! Twitter.com version
+! Removes "Who to Follow" and displayed birthday from profile
+twitter.com##.profile-additional-birth-me.profile-additional-birth.profile-additional-thing
+twitter.com##[id="wtf"]
+! Twitter, Blocks turkey man's stupid changes.
+twitter.com##[href="/i/twitter_blue_sign_up"]
+twitter.com##[aria-label="Get Verified"]:upward(1)
+twitter.com##[data-testid="sidebarColumn"] [href="/i/topics/picker/home"]:upward(section)
+twitter.com##[aria-label$="trending now" i]
+twitter.com##[aria-label="who to follow" i]:upward(1)
+twitter.com###layers>div:last-of-type:has-text(Switch to the app)
+! twitter.com##div#layers div[data-testid="sheetDialog"]:upward(div[role="group"][tabindex="0"])
+twitter.com##html:style(overflow: auto !important;)
+! twitter.com##[role="presentation"]:has-text(/For you/)
+! Follow/Recommended Topic | "[Name of Topic] See more"
+twitter.com##article [aria-label^="Follow Topic"], article [aria-label^="Recommended Topic"]:upward(article):style(visibility: hidden !important)
+twitter.com##article [aria-label^="Follow Topic"], article [aria-label^="Recommended Topic"]:upward(article):style(height:0px !important)
+! You might like (Suggested tweet)
+twitter.com##article [d$="2.66 6 1H5z"]:upward(article):style(visibility: hidden !important)
+twitter.com##article [d$="2.66 6 1H5z"]:upward(article):style(height:0px !important)
+! My Timeline - no inserted sections (Who to follow/Topics to follow, etc.)
+twitter.com##[aria-label="Timeline: Your Home Timeline"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:first-child:has-text(/^Show \d\d? Tweets?$/)):not(:has(article, [href^="/i/status/"], [role="progressbar"])):style(visibility: hidden !important)
+twitter.com##[aria-label="Timeline: Your Home Timeline"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:first-child:has-text(/^Show \d\d? Tweets?$/)):not(:has(article, [href^="/i/status/"], [role="progressbar"])):style(height:0px !important)
+! Other Timelines - no inserted sections (Who to follow/Topics to follow, etc.)
+twitter.com##[aria-label$="’s Tweets"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(article, [href^="/i/status/"], [role="progressbar"])):style(visibility: hidden !important)
+twitter.com##[aria-label$="’s Tweets"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(article, [href^="/i/status/"], [role="progressbar"])):style(height:0px !important)
+! [User] follows / liked / retweeted
+twitter.com##article div>svg>g>[d^="M17.863 13.44c1.477"]:upward(article):style(visibility: hidden !important)
+twitter.com##article div>svg>g>[d^="M17.863 13.44c1.477"]:upward(article):style(height:0px !important)
+twitter.com##article>div:first-child>div:first-child>div:first-child>div:first-child [d$="4.17-.514 6.67z"]:upward(article):style(visibility: hidden !important)
+twitter.com##article>div:first-child>div:first-child>div:first-child>div:first-child [d$="4.17-.514 6.67z"]:upward(article):style(height:0px !important)
+twitter.com##:is([aria-label="Timeline: Your Home Timeline"]) article>div:first-child>div:first-child>div:first-child>div:first-child [d^="M4.75 3.79l4.603"]:upward(article):not(:has([data-testid="socialContext"]:has-text(/^You/))):style(visibility: hidden !important)
+twitter.com##:is([aria-label="Timeline: Your Home Timeline"]) article>div:first-child>div:first-child>div:first-child>div:first-child [d^="M4.75 3.79l4.603"]:upward(article):not(:has([data-testid="socialContext"]:has-text(/^You/))):style(height:0px !important)
+! [User] recieved a reply
+twitter.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/reply$/)):style(border: lightgreen 5px dotted !important)
+twitter.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/reply$/))+div:style(border: lightgreen 5px dotted !important)
+! [User] recieved replies
+twitter.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replies$/)):style(border: green 5px dotted !important)
+twitter.com##article>div:first-child:not(:last-child):upward([style*="position: absolute"]):style(border: 5px dotted orange !important)
+! [User] replied
+twitter.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replied$/)):style(border: violet 5px dotted !important)
+twitter.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replied$/))+div:style(border: violet 5px dotted !important)
+! "Official" label on posts and profiles
+twitter.com##[src$="/verified_stroke_1.png"]:upward(div:not(:empty)+div:last-of-type):style(border: dotted 2px grey !important;)
+! Discover more / More Tweets - Conversation view suggestions
+twitter.com##[aria-label="Timeline: Conversation"] [data-testid="cellInnerDiv"] h2:has-text(/^(Discover more|More Tweets)$/):upward([data-testid="cellInnerDiv"])
+twitter.com##[aria-label="Timeline: Conversation"] [data-testid="cellInnerDiv"] h2:has-text(/^(Discover more|More Tweets)$/):upward([data-testid="cellInnerDiv"])~div
+! ???
+twitter.com##[aria-label="Twitter Blue"]
+twitter.com##[aria-label="Verified"]
+twitter.com##[aria-label="Premium"]
+twitter.com##[aria-label="Subscribe to Premium"]
+twitter.com##[href="https://tweetdeck.twitter.com"]
+twitter.com##[href="https://ads.twitter.com/?ref=gl-tw-tw-twitter-ads-rweb"]
+twitter.com##[href="/jobs"]
+twitter.com##[aria-label*="View Tweet analytics"]
+twitter.com##div[aria-label="Timeline: Trending now"]
+twitter.com##[aria-label="Communities"]
+twitter.com##[aria-label="Grok"]
+twitter.com##[role="presentation"]:has-text(Highlights)
+twitter.com##[href="/i/verified-orgs-signup"]
+twitter.com##a[href="/explore/tabs/sports_unified"]
+twitter.com##a[href="/explore/tabs/entertainment_unified"]
+twitter.com##.r-6416eg[class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="css-"][class*="css-"][class*="css-"]:has-text(/Want to read the article first?/)
