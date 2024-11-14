@@ -1,6 +1,6 @@
 # Platform Filters For Cosmetic QOL
 
-Filters and changes platform served content and layout for uBlockOrigin
+Filters and changes platform served cosmetics for uBlockOrigin
 
 
 ## How to use
