@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/ma
 ```
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/YoutubeFilter
 ```
-##### Other Youtube Cosmetic Filters
+##### Youtube OPTIONAL cosmetic filters
 ```
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/YoutubeExpandedDescription
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/YoutubeSwitcherInfoHider
