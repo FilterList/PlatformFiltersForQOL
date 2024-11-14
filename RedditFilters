@@ -1,0 +1,19 @@
+! Old Reddit Filters
+www.reddit.com##.inner
+www.reddit.com##.kLZNVj.s1cbwutf-2
+www.reddit.com##.gthzyO.s1cbwutf-0
+www.reddit.com##.dotNyt.pqvesn-2
+www.reddit.com##._1b1Jalg2nxA_Z-BjKXRfAV
+www.reddit.com##._ZhON3a3vplThB8NFwuJn
+www.reddit.com##div.fePAzF.ii4q9d-0:nth-of-type(3) > .SNsiL.s73mpk5-0 > .TmgZY6tDcdErbE5d7E0HJ
+www.reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar > .onboardingbar-body > header
+www.reddit.com##.img-container
+www.reddit.com##.premium-banner
+www.reddit.com##.recs > div
+www.reddit.com##.endoflist
+www.reddit.com##.recs
+www.reddit.com##.sidecontentbox > .title
+www.reddit.com##.happening-now
+www.reddit.com##.trending-subreddits-content
+! New Reddit Filters
+! Nothing here because I don't use the terrible new layout
