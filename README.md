@@ -1,6 +1,6 @@
 # Platform Filters For Cosmetic QOL
 
-Filters FleshTubers that misuse the VTuber tag on Twitch for uBlockOrigin
+Filters and changes platform served content and layout for uBlockOrigin
 
 
 ## How to use
