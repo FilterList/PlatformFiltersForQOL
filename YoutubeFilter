@@ -1,0 +1,86 @@
+||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
+youtube.com###reaction-control-panel-overlay
+youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com###share-targets
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text(/recommended playlists/i)
+www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-ad-slot-renderer.style-scope
+! Remove Likes/Dislikes numbers from Youtube Studio
+studio.youtube.com##.likes-container
+studio.youtube.com##.ytcp-video-row.style-scope.right-align.tablecell-likes.cell-body
+studio.youtube.com##.ytcp-table-header.style-scope.cell-header.right-align.tablecell-likes
+! Disables Youtube Home Page
+youtube.com##ytd-browse[page-subtype="home"]
+! Removes End of video Cards/Video grid
+www.youtube.com##.ytp-ce-element.ytp-ce-element-show
+www.youtube.com##.ytp-ce-element-shadow
+www.youtube.com##.ytp-ce-covering-overlay
+www.youtube.com##.ytp-ce-covering-image
+www.youtube.com##.ytp-ce-video.ytp-ce-element
+www.youtube.com##.ytp-ce-channel.ytp-ce-element
+www.youtube.com##.ytp-ce-playlist.ytp-ce-element
+www.youtube.com##.autonav-endscreen.ytp-player-content.html5-endscreen
+www.youtube.com##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer:has-text(Shorts)
+www.youtube.com##.ytp-ce-size-1280
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text(/People also watched/)
+www.youtube.com##.ytp-paid-content-overlay
+##ytd-thumbnail-overlay-toggle-button-renderer
+! SideBar video list
+www.youtube.com##ytd-watch-next-secondary-results-renderer
+www.youtube.com###action-menu
+! Navigation
+www.youtube.com##ytd-guide-section-renderer:has-text(/Youtube Kids/i)
+www.youtube.com##ytd-guide-section-renderer:has-text(/Explore/)
+www.youtube.com##ytd-item-section-renderer:has-text(/Recommended videos/i)
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Shorts/)
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/YouTube Premium/)
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Sport/)
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Fashion & beauty/)
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Movies & shows/)
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Learning/)
+www.youtube.com##ytd-mini-guide-renderer
+! === Below from (https://www.reddit.com/r/uBlockOrigin/comments/145hz4p/filters_for_youtube_to_fix_the_3_videos_per_row/) ===
+! Hide profile pictures below video thumbnails on the homepage/subscriptions page
+www.youtube.com###avatar.ytd-rich-grid-media
+www.youtube.com###avatar-link.ytd-rich-grid-media
+www.youtube.com###home-page-skeleton .channel-avatar
+! More videos per row
+www.youtube.com##.ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 10 !important)
+www.youtube.com##.ytp-inline-preview-mode .ytp-paid-content-overlay
+www.youtube.com##.skeleton-bg-color.ytd-ghost-grid-renderer
+www.youtube.com##ytd-rich-item-renderer:upward(ytd-ad-slot-renderer)
+www.youtube.com##ytd-rich-section-renderer[class="style-scope ytd-rich-grid-renderer"]
+www.youtube.com###contents > ytd-rich-grid-row, #contents > ytd-rich-grid-row > #contents:style(display: contents !important)
+www.youtube.com##ytd-rich-item-renderer[is-slim-grid]:last-of-type:style(margin-right: calc(var(--ytd-rich-grid-item-margin)/2) !important)
+www.youtube.com##ytd-rich-item-renderer[is-slim-grid]:first-of-type:style(margin-left: calc(var(--ytd-rich-grid-item-margin)/2) !important)
+www.youtube.com##ytd-rich-grid-media[mini-mode], ytd-rich-section-renderer[mini-mode] #content.ytd-rich-section-renderer:style(max-width: none !important)
+www.youtube.com##ytd-rich-grid-row:style(--ytd-rich-grid-item-margin: 2px; !important)
+www.youtube.com###video-title.ytd-rich-grid-media:style(font-size: 1.3rem !important)
+www.youtube.com##.inline-metadata-item:style(font-size: 1rem !important)
+www.youtube.com##.style-scope.badge-style-type-live-now-alternate.badge > yt-icon.ytd-badge-supported-renderer
+youtube.com##ytd-page-manager:has([page-subtype="subscriptions"], [page-subtype="channels"]):style(margin-left:0 !important)
+! ???????????
+www.youtube.com##ytd-notification-multi-action-renderer[shelf-dismissal]:style(margin-top: 12px !important)
+www.youtube.com##.ytp-inline-preview-ui .ytp-subtitles-button, .ytp-inline-preview-ui .ytp-mute-button:style(display: block !important)
+www.youtube.com##.ytp-inline-preview-mode button.ytp-subtitles-button.ytp-button::after:style(margin: 0 8px !important)
+! Remove labels from Thanks/Clip/Save buttons
+www.youtube.com##ytd-menu-renderer:not([condensed]) #top-level-buttons-computed ytd-button-renderer:nth-child(2) .yt-spec-button-shape-next--button-text-content, #flexible-item-buttons .yt-spec-button-shape-next__button-text-content
+www.youtube.com##ytd-menu-renderer:not([condensed]) #top-level-buttons-computed ytd-button-renderer:nth-child(2),  #flexible-item-buttons .yt-spec-button-shape-next.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next--mono, #flexible-item-buttons .yt-spec-button-shape-next--disabled.yt-spec-button-shape-next--tonal:style(width: 36px !important; padding: 0 !important)
+www.youtube.com##ytd-menu-renderer:not([condensed]) #top-level-buttons-computed ytd-button-renderer:nth-child(2) .yt-spec-button-shape-next__icon, #flexible-item-buttons .yt-spec-button-shape-next__icon:style( margin: 0 !important)
+! Hides irrelevants search results
+www.youtube.com##[is-search] ytd-shelf-renderer.ytd-item-section-renderer:not(ytd-channel-renderer + ytd-shelf-renderer)
+www.youtube.com##[is-search] ytd-horizontal-card-list-renderer.ytd-item-section-renderer:not(:first-child)
+www.youtube.com##[is-search] ytd-exploratory-results-renderer.ytd-item-section-renderer
+! Hides Shorts from search results
+www.youtube.com##ytd-thumbnail #thumbnail.ytd-thumbnail[href*="/shorts/"]:upward(ytd-video-renderer)
+! Hides YouTube mixes
+www.youtube.com##.ytd-rich-item-renderer:upward([href*="start_radio=1"])
+www.youtube.com##ytd-compact-radio-renderer
+www.youtube.com##ytd-radio-renderer
+! Hides big blocky Channel Info
+www.youtube.com##[id="infocards-section"][class="style-scope ytd-video-description-infocards-section-renderer"]
+www.youtube.com##[id="items"][class="style-scope ytd-structured-description-content-renderer"]
