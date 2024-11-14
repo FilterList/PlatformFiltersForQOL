@@ -1,0 +1,61 @@
+! Cosmetic/Simplify changes to Twitch website
+www.twitch.tv##[aria-label="Discover Luna"]
+www.twitch.tv##.subtember-gradient
+twitch.tv##[class*="Layout-sc-"] > [data-test-selector*="toggle-balloon-wrapper__mouse-enter-detect"]:has-text(/Ad/i)
+twitch.tv##[aria-label="Recommended Channels"]
+twitch.tv##button:has-text(/Get Ad-Free/i)
+twitch.tv##.extensions-dock-card
+twitch.tv##.side-nav__title:has-text(/For You/)
+twitch.tv##div.side-nav-section:has-text(/Similar Channels/)
+twitch.tv##div.side-nav-section:has-text(/Recommended Channels/)
+twitch.tv##div.side-nav-section:has-text(/Popular Channels/)
+twitch.tv##div.side-nav-section:has-text(/Viewers Also Watch/)
+twitch.tv##div.side-nav-section:has-text(/Similar Channels/)
+twitch.tv##div.side-nav-section[aria-label="For You"]
+twitch.tv##div.side-nav-section[aria-label="Similar Channels"]
+twitch.tv##div.side-nav-section[aria-label="Recommended Channels"]
+twitch.tv##div.side-nav-section[aria-label="Popular Channels"]
+twitch.tv##div.side-nav-section[aria-label="Viewers Also Watch"]
+twitch.tv##div.side-nav-section[aria-label*="Viewers Also Watch"]
+twitch.tv##div.side-nav-section[aria-label="Similar Channels"]
+twitch.tv##.tw-md-flex.tw-hide.top-nav__nav-link.tw-interactive
+twitch.tv##.tw-sm-flex.tw-hide > .top-nav__nav-link.tw-interactive
+twitch.tv##a.tw-interactive.top-nav__nav-link:nth-of-type(1)
+twitch.tv##a.tw-interactive.top-nav__nav-link:nth-of-type(2)
+twitch.tv##.recommended-friends
+twitch.tv##.recommended-channels
+twitch.tv##div.tw-xl-pd-x-2.tw-pd-x-1.tw-full-height.tw-flex-column.tw-flex:nth-of-type(4)
+twitch.tv##div.tw-xl-pd-x-2.tw-pd-x-1.tw-full-height.tw-flex-column.tw-flex:nth-of-type(5)
+twitch.tv##div.tw-flex-column.tw-flex.side-nav-section:nth-of-type(2)
+twitch.tv##.community-highlight-stack__card--wide.community-highlight-stack__card
+twitch.tv##.tw-flex-grow-1 > div:nth-of-type(1) > div.side-nav-section:nth-of-type(2)
+twitch.tv##div:nth-of-type(5) > .tw-tower--gutter-sm.tw-tower--300.tw-tower.tw-flex-wrap
+twitch.tv##.tw-flex-wrap.tw-flex.tw-align-items-center > .tw-flex-wrap.tw-flex.tw-align-items-center
+twitch.tv##.tw-transition__slide-over-top--enter-done.tw-transition__slide-over-top.tw-transition--enter-done.tw-transition > .tw-mg-y-1.tw-flex-column.tw-flex
+twitch.tv##header[aria-label="Upcoming Streams"]
+twitch.tv###following-page-main-content > div > .ErUdM.Layout-sc-nxg1ff-0
+twitch.tv###following-page-main-content > div > .tw-tower.dcmlaV.ScTower-sc-1dei8tr-0
+twitch.tv##header[aria-label="Continue Watching"]
+twitch.tv##header[aria-label="Latest videos"]
+twitch.tv##header[aria-label="Live categories"]
+twitch.tv###following-page-main-content > div > div > .show-more__move-up
+twitch.tv###following-page-main-content > div > div > .find-me.fcPbos.Layout-sc-nxg1ff-0
+twitch.tv###following-page-main-content > .Layout-sc-nxg1ff-0 > div[aria-labelledby="600f48b069d7dfdd"]
+twitch.tv###following-page-main-content > .Layout-sc-nxg1ff-0 > div > .tw-tower
+twitch.tv###following-page-main-content > div > .show-more__move-up
+twitch.tv###following-page-main-content > div > div > div[aria-labelledby="d4b337729ff0d8eb"]
+twitch.tv##button:has-text(/Watch Ad/)
+twitch.tv##span[Data-a-target="video-ad-label"]
+twitch.tv##div[data-a-target="ax-overlay"]
+twitch.tv##.smarter-sort-callout
+twitch.tv##div[data-test-selector="sad-overlay"]
+||vod-secure.twitch.tv/_404/404_processing_320x180.png$image
+twitch.tv##button[class*=ScCoreButton-sc-]:has-text(/React/)
+twitch.tv##.find-me:has-text(/Recommended channels/)
+twitch.tv##[aria-label="Recommended Channels"]
+twitch.tv##[aria-label*="Viewers Also Watch"]
+twitch.tv##section#following-page-main-content > [class^="Layout-sc-"] > [class^="ScTower-sc-"]
+twitch.tv##[data-a-player-type="channel_switcher"] > [data-test-selector="video-player__video-container"] > [class*="video-ref"]
+twitch.tv##[data-a-player-type="channel_switcher"] > [data-test-selector="video-player__video-container"]
+twitch.tv##[data-a-player-type="channel_switcher"]
+twitch.tv##[class*="switcher-channel-info"]
