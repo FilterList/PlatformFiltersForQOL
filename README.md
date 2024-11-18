@@ -22,6 +22,7 @@ https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/ma
 ```
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/YoutubeExpandedDescription
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/YoutubeSwitcherInfoHider
+https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/YoutubeMoreVideosRow
 ```
 #### Reddit
 ```
