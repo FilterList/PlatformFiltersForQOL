@@ -1,8 +1,5 @@
 # X.com version
-! Removes (Who to Follow) on profiles
-x.com##div:nth-of-type(7):has-text(/who to follow/i)
-x.com##div[data-testid="cellInnerDiv"]>div>div>button[data-testid="UserCell"]
-x.com##div[data-testid="cellInnerDiv"]>div>div>a[href^="/i/connect_people?user_id="]
+
 ! Removes Offer banner
 x.com##[aria-label*="Offer extended"]
 ! Removes "get verified" when visiting your own profile
