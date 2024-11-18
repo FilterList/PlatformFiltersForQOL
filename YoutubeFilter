@@ -48,21 +48,6 @@ www.youtube.com##ytd-mini-guide-renderer
 www.youtube.com###avatar.ytd-rich-grid-media
 www.youtube.com###avatar-link.ytd-rich-grid-media
 www.youtube.com###home-page-skeleton .channel-avatar
-! More videos per row
-www.youtube.com##.ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 10 !important)
-www.youtube.com##.ytp-inline-preview-mode .ytp-paid-content-overlay
-www.youtube.com##.skeleton-bg-color.ytd-ghost-grid-renderer
-www.youtube.com##ytd-rich-item-renderer:upward(ytd-ad-slot-renderer)
-www.youtube.com##ytd-rich-section-renderer[class="style-scope ytd-rich-grid-renderer"]
-www.youtube.com###contents > ytd-rich-grid-row, #contents > ytd-rich-grid-row > #contents:style(display: contents !important)
-www.youtube.com##ytd-rich-item-renderer[is-slim-grid]:last-of-type:style(margin-right: calc(var(--ytd-rich-grid-item-margin)/2) !important)
-www.youtube.com##ytd-rich-item-renderer[is-slim-grid]:first-of-type:style(margin-left: calc(var(--ytd-rich-grid-item-margin)/2) !important)
-www.youtube.com##ytd-rich-grid-media[mini-mode], ytd-rich-section-renderer[mini-mode] #content.ytd-rich-section-renderer:style(max-width: none !important)
-www.youtube.com##ytd-rich-grid-row:style(--ytd-rich-grid-item-margin: 2px; !important)
-www.youtube.com###video-title.ytd-rich-grid-media:style(font-size: 1.3rem !important)
-www.youtube.com##.inline-metadata-item:style(font-size: 1rem !important)
-www.youtube.com##.style-scope.badge-style-type-live-now-alternate.badge > yt-icon.ytd-badge-supported-renderer
-youtube.com##ytd-page-manager:has([page-subtype="subscriptions"], [page-subtype="channels"]):style(margin-left:0 !important)
 ! ???????????
 www.youtube.com##ytd-notification-multi-action-renderer[shelf-dismissal]:style(margin-top: 12px !important)
 www.youtube.com##.ytp-inline-preview-ui .ytp-subtitles-button, .ytp-inline-preview-ui .ytp-mute-button:style(display: block !important)
