@@ -1,7 +1,4 @@
 # X.com version
-! Removes premium offer
-x.com##[data-testid="sheetDialog"]
-x.com###[role="complementary"]
 ! Removes the "For You" Section in Explore
 x.com##section:has([data-testid="eventHero"])
 ! Removes (Who to Follow) on profiles
