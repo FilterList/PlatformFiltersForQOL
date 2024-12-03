@@ -1,5 +1,6 @@
 # X.com version
-
+! Removes the "For You" Section in Explore
+x.com##section:has([data-testid="eventHero"])
 ! Removes (Who to Follow) on profiles
 x.com##div:nth-of-type(7):has-text(/who to follow/i)
 x.com##div[data-testid="cellInnerDiv"]>div>div>a[href^="/i/connect_people?user_id="]
