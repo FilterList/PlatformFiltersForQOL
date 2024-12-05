@@ -14,6 +14,10 @@ https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/ma
 ```
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/TwitterFilter
 ```
+##### Twitter Saved Searches
+```
+https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/TwitterSavedSearches
+```
 #### Youtube
 ```
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/YoutubeFilter
