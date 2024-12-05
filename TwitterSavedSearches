@@ -1,0 +1,5 @@
+! Hides undeletable saved searches 
+twitter.com##[id="search-results"]
+twitter.com##[data-testid="typeaheadSavedSearchesContainer"]
+x.com##[id="search-results"]
+x.com##[data-testid="typeaheadSavedSearchesContainer"]
