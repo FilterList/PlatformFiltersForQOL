@@ -1,4 +1,6 @@
 # X.com version
+! Removes Grok Button on posts
+x.com##[aria-label="Grok actions"]
 ! Removes premium offer
 x.com##[data-testid="sheetDialog"]:has-text(/premium/i)
 x.com##[role="complementary"]:has-text(/premium/i)
