@@ -1,10 +1,8 @@
 ! For Account Switcher, A band-aid approach to hide Youtube Info
 youtube.com###header > .ytd-account-section-list-renderer.style-scope
-youtube.com##tp-yt-paper-item-body.ytd-account-item-renderer.style-scope:has-text(/No subscribers/)
 youtube.com##ytd-account-item-renderer.ytd-account-item-section-renderer.style-scope:has-text(/No channel/)
 youtube.com###contents > .ytd-account-section-list-renderer.style-scope:has-text(/No channel/)
 youtube.com###contents > .ytd-account-section-list-renderer.style-scope:has-text(/blank/)
 youtube.com##.ytd-account-section-list-renderer.style-scope > .ytd-account-item-section-renderer.style-scope:has-text(/@gmail.com/)
 youtube.com###header > .ytd-account-section-list-renderer.style-scope:has-text(/@gmail.com/)
-studio.youtube.com##tp-yt-paper-item-body.ytd-account-item-renderer.style-scope:has-text(/No subscribers/)
 studio.youtube.com##ytd-account-item-renderer.ytd-account-item-section-renderer.style-scope:has-text(/No channel/)
