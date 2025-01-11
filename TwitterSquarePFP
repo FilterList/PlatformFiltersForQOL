@@ -1,0 +1,14 @@
+! Changes Circle PFP to Square PFP
+x.com##div[data-testid^="UserAvatar-"] div div div div:style(border-radius:10px!important;)
+x.com##div[data-testid^="UserAvatar-"] a:style(border-radius:0px!important;)
+x.com##div[data-testid^="UserAvatar-"] a div[style^="background-"]:style(border-radius:10px!important;)
+x.com##div[data-testid^="UserAvatar-"] a div[style^="background-"] div:style(border-radius:0px!important;)
+x.com##div[data-testid^="UserAvatar-"] a div[style^="background-"] div div[style^="background-image:"]:style(border-radius:0px!important;)
+x.com##[aria-label^="Verified"] g[clip-rule^="evenodd"]:upward(a):upward(div):upward(div):upward(div):upward(div):upward(div):upward(div):upward(div):upward(div):upward(div) div[data-testid^="UserAvatar-"] div div div div:style(border-radius:0px!important;)
+! twitter domain
+twitter.com##div[data-testid^="UserAvatar-"] div div div div:style(border-radius:10px!important;)
+twitter.com##div[data-testid^="UserAvatar-"] a:style(border-radius:0px!important;)
+twitter.com##div[data-testid^="UserAvatar-"] a div[style^="background-"]:style(border-radius:10px!important;)
+twitter.com##div[data-testid^="UserAvatar-"] a div[style^="background-"] div:style(border-radius:0px!important;)
+twitter.com##div[data-testid^="UserAvatar-"] a div[style^="background-"] div div[style^="background-image:"]:style(border-radius:0px!important;)
+twitter.com##[aria-label^="Verified"] g[clip-rule^="evenodd"]:upward(a):upward(div):upward(div):upward(div):upward(div):upward(div):upward(div):upward(div):upward(div):upward(div) div[data-testid^="UserAvatar-"] div div div div:style(border-radius:0px!important;)
