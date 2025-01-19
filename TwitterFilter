@@ -1,5 +1,7 @@
 # X.com version
 ! Removes Grok buttons
+x.com##[aria-label="Grok actions"]
+x.com##[data-testid="GrokDrawer"]
 x.com##[aria-label="Profile Summary"]
 x.com##[data-testid="GrokDrawerHeader"]:upward(div)
 ! Removes Grok Button on posts
@@ -82,6 +84,8 @@ x.com##a[href="/explore/tabs/entertainment_unified"]
 x.com##.r-6416eg[class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="css-"][class*="css-"][class*="css-"]:has-text(/Want to read the article first?/)
 
 ! Twitter.com version
+twitter.com##[aria-label="Grok actions"]
+twitter.com##[data-testid="GrokDrawer"]
 twitter.com##[aria-label="Profile Summary"]
 twitter.com##[data-testid="GrokDrawerHeader"]:upward(div)
 ! Removes "Who to Follow" and displayed birthday from profile
