@@ -1,3 +1,11 @@
+! Disable text shadows on Youtube
+youtube.com##*:style(text-shadow: none !important)
+! Disable round corners on Youtube
+!  (caution, load animation is a square)
+youtube.com##*:style(border-radius: 0px !important)
+! Removes Avatar Live Ring
+www.youtube.com##[class^="yt-spec-avatar-shape--live-ring"]:remove-class(yt-spec-avatar-shape--live-ring)
+
 ||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
 youtube.com###reaction-control-panel-overlay
 youtube.com##+js(nano-stb, resolve(1), *, 0.001)
