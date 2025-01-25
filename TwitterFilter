@@ -1,4 +1,7 @@
 # X.com version
+! Highlights Images that are actually deceptively URL links instead of actual images.
+x.com##a:upward([data-testid="card.layoutLarge.media"]):upward(div):upward(div):style(border:4px yellow dashed!important;)
+x.com##a:upward([data-testid="card.layoutLarge.media"]):upward(div):upward(div) a:style(font-size:20px!important; padding-bottom:10px!important;padding-top:6px!important;color:yellow!important;)
 ! Removes Grok buttons
 x.com##[aria-label="Grok actions"]
 x.com##[data-testid="GrokDrawer"]
@@ -84,6 +87,9 @@ x.com##a[href="/explore/tabs/entertainment_unified"]
 x.com##.r-6416eg[class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="css-"][class*="css-"][class*="css-"]:has-text(/Want to read the article first?/)
 
 ! Twitter.com version
+! Highlights Images that are actually deceptively URL links instead of actual images.
+twitter.com##a:upward([data-testid="card.layoutLarge.media"]):upward(div):upward(div):style(border:4px yellow dashed!important;)
+twitter.com##a:upward([data-testid="card.layoutLarge.media"]):upward(div):upward(div) a:style(font-size:20px!important; padding-bottom:10px!important;padding-top:6px!important;color:yellow!important;)
 twitter.com##[aria-label="Grok actions"]
 twitter.com##[data-testid="GrokDrawer"]
 twitter.com##[aria-label="Profile Summary"]
