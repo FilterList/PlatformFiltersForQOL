@@ -13,6 +13,7 @@ x.com##[aria-label="Grok actions"]
 x.com##[data-testid="sheetDialog"]:has-text(/premium/i)
 x.com##[role="complementary"]:has-text(/premium/i)
 ! Removes the "For You" Section in Explore
+x.com##h1:has-text(/explore/i):upward(section:has([aria-labelledby*="accessible-list"])):upward(div)
 x.com##section:has([data-testid="eventHero"])
 ! Removes (Who to Follow) on profiles
 x.com##div:nth-of-type(7):has-text(/who to follow/i)
