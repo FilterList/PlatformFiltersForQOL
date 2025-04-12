@@ -1,7 +1,8 @@
 ! Cosmetic/Simplify changes to Twitch website
-www.twitch.tv##[aria-label="Live Channels"]
-www.twitch.tv##[aria-label="Discover Luna"]
-www.twitch.tv##.subtember-gradient
+twitch.tv##[aria-label="Recommended Categories"]
+twitch.tv##[aria-label="Live Channels"]
+twitch.tv##[aria-label="Discover Luna"]
+twitch.tv##.subtember-gradient
 twitch.tv##[class*="Layout-sc-"] > [data-test-selector*="toggle-balloon-wrapper__mouse-enter-detect"]:has-text(/Ad/i)
 twitch.tv##[aria-label="Recommended Channels"]
 twitch.tv##button:has-text(/Get Ad-Free/i)
