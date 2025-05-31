@@ -1,3 +1,5 @@
+! Removes annoying Overlay when hovering over thumbnails
+youtube.com##ytm-paid-content-overlay-renderer
 ! Disable text shadows on Youtube
 youtube.com##*:style(text-shadow: none !important)
 ! Disable round corners on Youtube
