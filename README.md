@@ -3,7 +3,7 @@
 Filters and changes platform served cosmetics for uBlockOrigin
 
 A lot of the filters need to be cleaned up and be provided with better commenting (Youtube/Twitter/Twitch are a mess). I haven't had the time to go through it all.
-Newer filters will be organised accordingly when added.
+Newer filters will be organised accordingly when added. Also, I don't know what I am doing half the time.
 
 
 ## How to use
