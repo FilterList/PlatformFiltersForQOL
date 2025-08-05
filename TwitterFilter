@@ -1,4 +1,6 @@
 # X.com version
+! Removes Promotion
+x.com##[data-testid="super-upsell-UpsellCardRenderProperties"]
 ! Highlights Images that are actually deceptively URL links instead of actual images.
 x.com##a:upward([data-testid="card.layoutLarge.media"]):upward(div):upward(div):style(border:4px yellow dashed!important;)
 x.com##a:upward([data-testid="card.layoutLarge.media"]):upward(div):upward(div) a:style(font-size:20px!important; padding-bottom:10px!important;padding-top:6px!important;color:yellow!important;)
