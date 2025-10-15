@@ -1,3 +1,6 @@
+! New youtube video layout, removes end of video grid of videos
+www.youtube.com##[class="ytp-fullscreen-grid"]
+
 ! Removes Shorts in search
 youtube.com##grid-shelf-view-model:has-text(/Shorts/i)
 ! Removes annoying Overlay when hovering over thumbnails
