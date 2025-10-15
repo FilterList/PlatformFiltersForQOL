@@ -1,5 +1,6 @@
 ! New youtube video layout, removes end of video grid of videos
 www.youtube.com##[class="ytp-fullscreen-grid"]
+www.youtube.com##[class="ytp-ce-hide-button-container"]
 
 ! Removes Shorts in search
 youtube.com##grid-shelf-view-model:has-text(/Shorts/i)
