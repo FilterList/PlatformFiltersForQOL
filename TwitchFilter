@@ -1,5 +1,5 @@
 ! Cosmetic/Simplify changes to Twitch website
-twitch.tv##[class^="Layout-sc"] [class^="Layout-sc"] [class^="Layout-sc"] [class^="InjectLayout-sc"]:has-text(/go ad-free/i)
+
 twitch.tv##[aria-label="Recommended Categories"]
 twitch.tv##[aria-label="Live Channels"]
 twitch.tv##[aria-label="Discover Luna"]
