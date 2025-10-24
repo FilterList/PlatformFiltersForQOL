@@ -1,4 +1,7 @@
 # X.com version
+x.com##[data-testid="news_sidebar"]
+x.com##div > div > [role="heading"]:has-text(/news/i):upward(div):upward(div)
+x.com##h1:has-text(/explore/i):upward(div)
 ! Removes Promotion
 x.com##[data-testid="super-upsell-UpsellCardRenderProperties"]
 ! Highlights Images that are actually deceptively URL links instead of actual images.
