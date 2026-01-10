@@ -1,5 +1,6 @@
 ! Cosmetic/Simplify changes to Twitch website
-
+twitch.tv##button [class^="ScCoreButton"]:has-text(/Ad-Free/i)
+twitch.tv##[aria-label="Go Ad-Free for Free"]
 twitch.tv##[aria-label="Recommended Categories"]
 twitch.tv##[aria-label="Live Channels"]
 twitch.tv##[aria-label="Discover Luna"]
