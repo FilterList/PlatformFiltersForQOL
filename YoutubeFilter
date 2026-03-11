@@ -3,7 +3,7 @@ www.youtube.com##[class="ytp-fullscreen-grid"]
 www.youtube.com##[class="ytp-ce-hide-button-container ytp-ce-element-show"]
 
 ! Removes Shorts in search
-youtube.com##grid-shelf-view-model:has-text(/Shorts/i)
+youtube.com##ytm-shorts-lockup-view-model-v2:upward(grid-shelf-view-model)
 ! Removes annoying Overlay when hovering over thumbnails
 youtube.com##ytm-paid-content-overlay-renderer
 ! Disable text shadows on Youtube
