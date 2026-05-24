@@ -1,5 +1,5 @@
 ! More videos per row
-www.youtube.com##.ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important)
+www.youtube.com##.ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 6 !important)
 www.youtube.com##.ytp-inline-preview-mode .ytp-paid-content-overlay
 www.youtube.com##.skeleton-bg-color.ytd-ghost-grid-renderer
 www.youtube.com##ytd-rich-item-renderer:upward(ytd-ad-slot-renderer)
