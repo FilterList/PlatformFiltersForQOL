@@ -1,3 +1,5 @@
+www.youtube.com##.ytp-player-content.ytp-autonav-endscreen-upnext-alternative-header-only
+
 ! New youtube video layout, removes end of video grid of videos
 www.youtube.com##[class="ytp-fullscreen-grid"]
 www.youtube.com##[class="ytp-ce-hide-button-container ytp-ce-element-show"]
