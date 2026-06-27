@@ -3,3 +3,6 @@ www.facebook.com##.xzkaem6.x1n2onr6.__fb-light-mode
 ! Sourceforge
 sourceforge.net###mirror
 sourceforge.net##.scroll-fixable:has-text(/Related/)
+! pinterest
+pinterest.com##[data-test-id*="fullPageSignupModal"]
+pinterest.com##body:style(overflow: auto !important;)
