@@ -1,4 +1,7 @@
 youtube.com##ytm-shorts-lockup-view-model-v2:upward(grid-shelf-view-model)
+youtube.com##ytm-paid-content-overlay-renderer
+youtube.com##grid-shelf-view-model:has-text(/Shorts/i)
+youtube.com##[class*="ytSearchboxComponentSuggestionsContainer"]
 
 ! New youtube video layout, removes end of video grid of videos
 youtube.com##.ytp-player-content.ytp-autonav-endscreen-upnext-alternative-header-only
