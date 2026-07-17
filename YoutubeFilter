@@ -1,4 +1,5 @@
 youtube.com##ytm-shorts-lockup-view-model-v2:upward(grid-shelf-view-model)
+youtube.com###engagement-panel-scrim
 youtube.com##ytm-paid-content-overlay-renderer
 youtube.com##grid-shelf-view-model:has-text(/Shorts/i)
 youtube.com##[class*="ytSearchboxComponentSuggestionsContainer"]
