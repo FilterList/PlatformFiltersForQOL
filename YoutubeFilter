@@ -1,7 +1,7 @@
-! end screen
-youtube.com##.ytp-player-content.ytp-autonav-endscreen-upnext-alternative-header-only
+youtube.com##ytm-shorts-lockup-view-model-v2:upward(grid-shelf-view-model)
 
 ! New youtube video layout, removes end of video grid of videos
+youtube.com##.ytp-player-content.ytp-autonav-endscreen-upnext-alternative-header-only
 youtube.com##[class="ytp-fullscreen-grid"]
 youtube.com##[class="ytp-ce-hide-button-container ytp-ce-element-show"]
 
