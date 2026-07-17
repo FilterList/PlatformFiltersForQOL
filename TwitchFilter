@@ -1,4 +1,7 @@
 ! Cosmetic/Simplify changes to Twitch website
+twitch.tv##[aria-label="Live Channels"]
+twitch.tv##[aria-label="Recommended Categories"]
+twitch.tv###twilight-sticky-footer-root
 twitch.tv##+js(twitch-videoad)
 twitch.tv##div[class*="player-overlay"]:has-text(/Wait/i)
 twitch.tv##.player-overlay-background:has-text(Consider Turbo)
