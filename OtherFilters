@@ -6,3 +6,6 @@ sourceforge.net##.scroll-fixable:has-text(/Related/)
 ! pinterest
 pinterest.com##[data-test-id*="fullPageSignupModal"]
 pinterest.com##body:style(overflow: auto !important;)
+pinterest.com##[data-test-id*="fullPageSignupModal"]
+pinterest.com##body:style(overflow: auto !important;)
+pinterest.com##[data-test-id="main-pin-hover-overlay"]
