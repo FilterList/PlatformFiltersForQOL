@@ -1,8 +1,9 @@
-www.youtube.com##.ytp-player-content.ytp-autonav-endscreen-upnext-alternative-header-only
+! end screen
+youtube.com##.ytp-player-content.ytp-autonav-endscreen-upnext-alternative-header-only
 
 ! New youtube video layout, removes end of video grid of videos
-www.youtube.com##[class="ytp-fullscreen-grid"]
-www.youtube.com##[class="ytp-ce-hide-button-container ytp-ce-element-show"]
+youtube.com##[class="ytp-fullscreen-grid"]
+youtube.com##[class="ytp-ce-hide-button-container ytp-ce-element-show"]
 
 ! Removes Shorts in search
 youtube.com##ytm-shorts-lockup-view-model-v2:upward(grid-shelf-view-model)
@@ -19,13 +20,13 @@ www.youtube.com##[class^="yt-spec-avatar-shape--live-ring"]:remove-class(yt-spec
 ||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
 youtube.com###reaction-control-panel-overlay
 youtube.com##+js(nano-stb, resolve(1), *, 0.001)
-www.youtube.com###share-targets
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
-www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
-www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text(/recommended playlists/i)
-www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-ad-slot-renderer.style-scope
+youtube.com###share-targets
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
+youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text(/recommended playlists/i)
+youtube.com##.ytd-item-section-renderer.style-scope > .ytd-ad-slot-renderer.style-scope
 ! Remove Likes/Dislikes numbers from Youtube Studio
 studio.youtube.com##.likes-container
 studio.youtube.com##.ytcp-video-row.style-scope.right-align.tablecell-likes.cell-body
