@@ -1,4 +1,6 @@
 # X.com version
+x.com##[id="search-results"]
+x.com##[data-testid="typeaheadSavedSearchesContainer"]
 x.com##[data-testid="news_sidebar"]
 x.com##div > div > [role="heading"]:has-text(/news/i):upward(div):upward(div)
 x.com##h1:has-text(/explore/i):upward(div)
@@ -93,6 +95,8 @@ x.com##a[href="/explore/tabs/entertainment_unified"]
 x.com##.r-6416eg[class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="r-"][class*="css-"][class*="css-"][class*="css-"]:has-text(/Want to read the article first?/)
 
 ! Twitter.com version
+twitter.com##[id="search-results"]
+twitter.com##[data-testid="typeaheadSavedSearchesContainer"]
 ! Highlights Images that are actually deceptively URL links instead of actual images.
 twitter.com##a:upward([data-testid="card.layoutLarge.media"]):upward(div):upward(div):style(border:4px yellow dashed!important;)
 twitter.com##a:upward([data-testid="card.layoutLarge.media"]):upward(div):upward(div) a:style(font-size:20px!important; padding-bottom:10px!important;padding-top:6px!important;color:yellow!important;)
