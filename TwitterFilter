@@ -1,4 +1,5 @@
 # X.com version
+x.com##[aria-labelledby="modal-header"]:has-text(/premium/i)
 x.com##[id="search-results"]
 x.com##[data-testid="typeaheadSavedSearchesContainer"]
 x.com##[data-testid="news_sidebar"]
