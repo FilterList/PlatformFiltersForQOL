@@ -1,4 +1,7 @@
 ! Cosmetic/Simplify changes to Twitch website
+twitch.tv##+js(twitch-videoad)
+twitch.tv##div[class*="player-overlay"]:has-text(/Wait/i)
+twitch.tv##.player-overlay-background:has-text(Consider Turbo)
 twitch.tv##button [class^="ScCoreButton"]:has-text(/Ad-Free/i)
 twitch.tv##[aria-label="Go Ad-Free for Free"]
 twitch.tv##[aria-label="Recommended Categories"]
