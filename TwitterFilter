@@ -7,6 +7,8 @@ x.com##div > div > [role="heading"]:has-text(/news/i):upward(div):upward(div)
 x.com##h1:has-text(/explore/i):upward(div)
 ! Removes Promotion
 x.com##[data-testid="super-upsell-UpsellCardRenderProperties"]
+! Disables Hyperlinks for accidental clicking
+x.com##[data-testid="tweet"] a[href*="t.co"]:style(pointer-events: none !important; cursor: text !important; color: inherit !important; text-decoration: none !important;)
 ! Highlights Images that are actually deceptively URL links instead of actual images.
 x.com##a:upward([data-testid="card.layoutLarge.media"]):upward(div):upward(div):style(border:4px yellow dashed!important;)
 x.com##a:upward([data-testid="card.layoutLarge.media"]):upward(div):upward(div) a:style(font-size:20px!important; padding-bottom:10px!important;padding-top:6px!important;color:yellow!important;)
