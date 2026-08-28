@@ -1,3 +1,5 @@
+! Disable Twitch chat HyperLinks (Forces copy paste to be safe)
+twitch.tv##[data-a-target="chat-line-message-body"] a:style(pointer-events: none !important; cursor: text !important; color: inherit !important; text-decoration: none !important;)
 ! Cosmetic/Simplify changes to Twitch website
 twitch.tv##[aria-label="Live Channels"]
 twitch.tv##[aria-label="Recommended Categories"]
