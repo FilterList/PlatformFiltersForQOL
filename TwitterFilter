@@ -59,12 +59,11 @@ x.com##[aria-label="Timeline: Your Home Timeline"] div[style^="transform: transl
 x.com##[aria-label$="’s Tweets"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(article, [href^="/i/status/"], [role="progressbar"])):style(visibility: hidden !important)
 x.com##[aria-label$="’s Tweets"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(article, [href^="/i/status/"], [role="progressbar"])):style(height:0px !important)
 ! [User] follows / liked / retweeted
+x.com##[aria-label^="Timeline:"] [data-testid="cellInnerDiv"]:has([d^="M4.75 3.79l4.603"]):not(:has([data-testid="unretweet"]))
 x.com##article div>svg>g>[d^="M17.863 13.44c1.477"]:upward(article):style(visibility: hidden !important)
 x.com##article div>svg>g>[d^="M17.863 13.44c1.477"]:upward(article):style(height:0px !important)
 x.com##article>div:first-child>div:first-child>div:first-child>div:first-child [d$="4.17-.514 6.67z"]:upward(article):style(visibility: hidden !important)
 x.com##article>div:first-child>div:first-child>div:first-child>div:first-child [d$="4.17-.514 6.67z"]:upward(article):style(height:0px !important)
-x.com##:is([aria-label="Timeline: Your Home Timeline"]) article>div:first-child>div:first-child>div:first-child>div:first-child [d^="M4.75 3.79l4.603"]:upward(article):not(:has([data-testid="socialContext"]:has-text(/^You/))):style(visibility: hidden !important)
-x.com##:is([aria-label="Timeline: Your Home Timeline"]) article>div:first-child>div:first-child>div:first-child>div:first-child [d^="M4.75 3.79l4.603"]:upward(article):not(:has([data-testid="socialContext"]:has-text(/^You/))):style(height:0px !important)
 ! [User] recieved a reply
 x.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/reply$/)):style(border: lightgreen 5px dotted !important)
 x.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/reply$/))+div:style(border: lightgreen 5px dotted !important)
