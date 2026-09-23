@@ -36,10 +36,6 @@ https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/ma
 ```
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/YoutubeMoreVideosRow
 ```
-#### Instagram
-```
-https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/InstagramFilter
-```
 #### Reddit
 ```
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/RedditFilters
