@@ -1,8 +1,7 @@
-
-# X.com version
+x.com##div:has(> [data-testid$="_scores_sidebar"])
+x.com##div:has(> [data-testid$="news_sidebar"])
 x.com##[id="search-results"]
 x.com##[data-testid="typeaheadSavedSearchesContainer"]
-x.com##[data-testid="news_sidebar"]
 x.com##div > div > [role="heading"]:has-text(/news/i):upward(div):upward(div)
 x.com##h1:has-text(/explore/i):upward(div)
 ! Removes Promotion
@@ -26,7 +25,7 @@ x.com##[role="complementary"]:has-text(/premium/i)
 x.com##h1:has-text(/explore/i):upward(section:has([aria-labelledby*="accessible-list"])):upward(div)
 x.com##section:has([data-testid="eventHero"])
 ! Removes (Who to Follow) on profiles
-x.com##div:nth-of-type(7):has-text(/who to follow/i)
+x.com##div:has(> [aria-label$="Who to follow"])
 x.com##div[data-testid="cellInnerDiv"]>div>div>a[href^="/i/connect_people?user_id="]
 x.com##:not(div[aria-label*="Follow"]>div>div>div>div):not(div[aria-label*="Search"]>div>div>div>div):not(div[aria-label*="members"]>div>div>div>div):not(div[aria-label*="Reposts"]>div>div>div>div)>button[data-testid="UserCell"]:upward(div[data-testid^="cellInnerDiv"])
 ! Removes Offer banner
