@@ -1,5 +1,0 @@
-! Sometimes Brave has a hard time blocking unwanted posts on mobile so this is a temp solution to hide the them. uBlock works fine, but still lets "Suggested for you" through
-instagram.com##article:has(span:has-text(/^Ad$/)):style(visibility: hidden !important; pointer-events: none !important)
-instagram.com##article:has(span:has-text(/^Sponsored$/)):style(visibility: hidden !important; pointer-events: none !important)
-instagram.com##article:has(span:has-text(/^AI content$/)):style(visibility: hidden !important; pointer-events: none !important)
-instagram.com##article:has(span:has-text(/^Suggested for you$/)):style(visibility: hidden !important; pointer-events: none !important)
