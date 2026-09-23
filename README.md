@@ -17,7 +17,9 @@ https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/ma
 ```
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/TwitterFilter
 ```
-##### Twitter Saved Searches
+```
+https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/TwitterSquarePFP
+```
 ```
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/TwitterSavedSearches
 ```
@@ -25,10 +27,13 @@ https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/ma
 ```
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/YoutubeFilter
 ```
-##### Youtube OPTIONAL cosmetic filters
 ```
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/YoutubeExpandedDescription
+```
+```
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/YoutubeSwitcherInfoHider
+```
+```
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/YoutubeMoreVideosRow
 ```
 #### Reddit
@@ -58,6 +63,8 @@ https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/ma
 #### Other Filters
 ```
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/OtherFilters
+```
+```
 https://raw.githubusercontent.com/FilterList/PlatformFiltersForQOL/refs/heads/main/gw2skillsFilter
 ```
 
