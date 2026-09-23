@@ -1,61 +1,38 @@
 ! Disable Twitch chat HyperLinks (Forces copy paste to be safe)
 twitch.tv##[data-a-target="chat-line-message-body"] a:style(pointer-events: none !important; cursor: text !important; color: inherit !important; text-decoration: none !important;)
 ! Cosmetic/Simplify changes to Twitch website
-twitch.tv##[aria-label="Live Channels"]
-twitch.tv##[aria-label="Recommended Categories"]
+twitch.tv##[aria-label="Live Channels"], [aria-label="Recommended Categories"], [aria-label="Go Ad-Free for Free"], [aria-label="Discover Luna"], [aria-label="Recommended Channels"]
 twitch.tv###twilight-sticky-footer-root
 twitch.tv##+js(twitch-videoad)
 twitch.tv##div[class*="player-overlay"]:has-text(/Wait/i)
 twitch.tv##.player-overlay-background:has-text(Consider Turbo)
 twitch.tv##button [class^="ScCoreButton"]:has-text(/Ad-Free/i)
-twitch.tv##[aria-label="Go Ad-Free for Free"]
-twitch.tv##[aria-label="Recommended Categories"]
-twitch.tv##[aria-label="Live Channels"]
-twitch.tv##[aria-label="Discover Luna"]
 twitch.tv##.subtember-gradient
 twitch.tv##[class*="Layout-sc-"] > [data-test-selector*="toggle-balloon-wrapper__mouse-enter-detect"]:has-text(/Ad/i)
-twitch.tv##[aria-label="Recommended Channels"]
 twitch.tv##button:has-text(/Get Ad-Free/i)
 twitch.tv##.extensions-dock-card
 twitch.tv##.side-nav__title:has-text(/For You/)
-twitch.tv##div.side-nav-section:has-text(/Similar Channels/)
-twitch.tv##div.side-nav-section:has-text(/Recommended Channels/)
-twitch.tv##div.side-nav-section:has-text(/Popular Channels/)
-twitch.tv##div.side-nav-section:has-text(/Viewers Also Watch/)
-twitch.tv##div.side-nav-section:has-text(/Similar Channels/)
-twitch.tv##div.side-nav-section[aria-label="For You"]
-twitch.tv##div.side-nav-section[aria-label="Similar Channels"]
-twitch.tv##div.side-nav-section[aria-label="Recommended Channels"]
-twitch.tv##div.side-nav-section[aria-label="Popular Channels"]
-twitch.tv##div.side-nav-section[aria-label="Viewers Also Watch"]
+twitch.tv##div.side-nav-section:has-text(/Similar Channels/), div.side-nav-section:has-text(/Recommended Channels/), div.side-nav-section:has-text(/Popular Channels/), div.side-nav-section:has-text(/Viewers Also Watch/)
+twitch.tv##div.side-nav-section[aria-label="For You"], div.side-nav-section[aria-label="Similar Channels"], div.side-nav-section[aria-label="Recommended Channels"], div.side-nav-section[aria-label="Popular Channels"], div.side-nav-section[aria-label="Viewers Also Watch"]
 twitch.tv##div.side-nav-section[aria-label*="Viewers Also Watch"]
-twitch.tv##div.side-nav-section[aria-label="Similar Channels"]
 twitch.tv##.tw-md-flex.tw-hide.top-nav__nav-link.tw-interactive
 twitch.tv##.tw-sm-flex.tw-hide > .top-nav__nav-link.tw-interactive
-twitch.tv##a.tw-interactive.top-nav__nav-link:nth-of-type(1)
-twitch.tv##a.tw-interactive.top-nav__nav-link:nth-of-type(2)
-twitch.tv##.recommended-friends
-twitch.tv##.recommended-channels
-twitch.tv##div.tw-xl-pd-x-2.tw-pd-x-1.tw-full-height.tw-flex-column.tw-flex:nth-of-type(4)
-twitch.tv##div.tw-xl-pd-x-2.tw-pd-x-1.tw-full-height.tw-flex-column.tw-flex:nth-of-type(5)
+twitch.tv##a.tw-interactive.top-nav__nav-link:nth-of-type(1), a.tw-interactive.top-nav__nav-link:nth-of-type(2)
+twitch.tv##.recommended-friends, .recommended-channels
+twitch.tv##div.tw-xl-pd-x-2.tw-pd-x-1.tw-full-height.tw-flex-column.tw-flex:nth-of-type(4), div.tw-xl-pd-x-2.tw-pd-x-1.tw-full-height.tw-flex-column.tw-flex:nth-of-type(5)
 twitch.tv##div.tw-flex-column.tw-flex.side-nav-section:nth-of-type(2)
 twitch.tv##.community-highlight-stack__card--wide.community-highlight-stack__card
 twitch.tv##.tw-flex-grow-1 > div:nth-of-type(1) > div.side-nav-section:nth-of-type(2)
 twitch.tv##div:nth-of-type(5) > .tw-tower--gutter-sm.tw-tower--300.tw-tower.tw-flex-wrap
 twitch.tv##.tw-flex-wrap.tw-flex.tw-align-items-center > .tw-flex-wrap.tw-flex.tw-align-items-center
 twitch.tv##.tw-transition__slide-over-top--enter-done.tw-transition__slide-over-top.tw-transition--enter-done.tw-transition > .tw-mg-y-1.tw-flex-column.tw-flex
-twitch.tv##header[aria-label="Upcoming Streams"]
+twitch.tv##header[aria-label="Upcoming Streams"], header[aria-label="Continue Watching"], header[aria-label="Latest videos"], header[aria-label="Live categories"]
 twitch.tv###following-page-main-content > div > .ErUdM.Layout-sc-nxg1ff-0
 twitch.tv###following-page-main-content > div > .tw-tower.dcmlaV.ScTower-sc-1dei8tr-0
-twitch.tv##header[aria-label="Continue Watching"]
-twitch.tv##header[aria-label="Latest videos"]
-twitch.tv##header[aria-label="Live categories"]
 twitch.tv###following-page-main-content > div > div > .show-more__move-up
 twitch.tv###following-page-main-content > div > div > .find-me.fcPbos.Layout-sc-nxg1ff-0
 twitch.tv###following-page-main-content > .Layout-sc-nxg1ff-0 > div[aria-labelledby="600f48b069d7dfdd"]
 twitch.tv###following-page-main-content > .Layout-sc-nxg1ff-0 > div > .tw-tower
-twitch.tv###following-page-main-content > div > .show-more__move-up
-twitch.tv###following-page-main-content > div > div > div[aria-labelledby="d4b337729ff0d8eb"]
 twitch.tv##button:has-text(/Watch Ad/)
 twitch.tv##span[Data-a-target="video-ad-label"]
 twitch.tv##div[data-a-target="ax-overlay"]
@@ -64,10 +41,8 @@ twitch.tv##div[data-test-selector="sad-overlay"]
 ||vod-secure.twitch.tv/_404/404_processing_320x180.png$image
 twitch.tv##button[class*=ScCoreButton-sc-]:has-text(/React/)
 twitch.tv##.find-me:has-text(/Recommended channels/)
-twitch.tv##[aria-label="Recommended Channels"]
 twitch.tv##[aria-label*="Viewers Also Watch"]
 twitch.tv##section#following-page-main-content > [class^="Layout-sc-"] > [class^="ScTower-sc-"]
-twitch.tv##[data-a-player-type="channel_switcher"] > [data-test-selector="video-player__video-container"] > [class*="video-ref"]
-twitch.tv##[data-a-player-type="channel_switcher"] > [data-test-selector="video-player__video-container"]
+twitch.tv###following-page-main-content > div > .show-more__move-up
 twitch.tv##[data-a-player-type="channel_switcher"]
 twitch.tv##[class*="switcher-channel-info"]
