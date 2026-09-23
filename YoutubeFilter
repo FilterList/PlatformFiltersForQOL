@@ -3,92 +3,56 @@ youtube.com###engagement-panel-scrim
 youtube.com##ytm-paid-content-overlay-renderer
 youtube.com##grid-shelf-view-model:has-text(/Shorts/i)
 youtube.com##[class*="ytSearchboxComponentSuggestionsContainer"]
-
 ! New youtube video layout, removes end of video grid of videos
-youtube.com##.ytp-player-content.ytp-autonav-endscreen-upnext-alternative-header-only
-youtube.com##[class="ytp-fullscreen-grid"]
-youtube.com##[class="ytp-ce-hide-button-container ytp-ce-element-show"]
-
-! Removes Shorts in search
-youtube.com##ytm-shorts-lockup-view-model-v2:upward(grid-shelf-view-model)
-! Removes annoying Overlay when hovering over thumbnails
-youtube.com##ytm-paid-content-overlay-renderer
-! Disable text shadows on Youtube
-youtube.com##*:style(text-shadow: none !important)
-! Disable round corners on Youtube
-!  (caution, load animation is a square)
-youtube.com##*:style(border-radius: 0px !important)
+youtube.com##.ytp-player-content.ytp-autonav-endscreen-upnext-alternative-header-only, [class="ytp-fullscreen-grid"], [class="ytp-ce-hide-button-container ytp-ce-element-show"]
+! Disable text shadows and round corners on Youtube
+youtube.com##*:style(text-shadow: none !important; border-radius: 0px !important)
 ! Removes Avatar Live Ring
-www.youtube.com##[class^="yt-spec-avatar-shape--live-ring"]:remove-class(yt-spec-avatar-shape--live-ring)
-
+youtube.com##[class^="yt-spec-avatar-shape--live-ring"]:remove-class(yt-spec-avatar-shape--live-ring)
 ||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
-youtube.com###reaction-control-panel-overlay
+youtube.com###reaction-control-panel-overlay, #share-targets
 youtube.com##+js(nano-stb, resolve(1), *, 0.001)
-youtube.com###share-targets
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
-youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
 youtube.com##.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text(/recommended playlists/i)
 youtube.com##.ytd-item-section-renderer.style-scope > .ytd-ad-slot-renderer.style-scope
 ! Remove Likes/Dislikes numbers from Youtube Studio
-studio.youtube.com##.likes-container
-studio.youtube.com##.ytcp-video-row.style-scope.right-align.tablecell-likes.cell-body
-studio.youtube.com##.ytcp-table-header.style-scope.cell-header.right-align.tablecell-likes
+studio.youtube.com##.likes-container, .ytcp-video-row.style-scope.right-align.tablecell-likes.cell-body, .ytcp-table-header.style-scope.cell-header.right-align.tablecell-likes
 ! Disables Youtube Home Page
 youtube.com##ytd-browse[page-subtype="home"]
 ! Removes End of video Cards/Video grid
-www.youtube.com##.ytp-ce-element.ytp-ce-element-show
-www.youtube.com##.ytp-ce-element-shadow
-www.youtube.com##.ytp-ce-covering-overlay
-www.youtube.com##.ytp-ce-covering-image
-www.youtube.com##.ytp-ce-video.ytp-ce-element
-www.youtube.com##.ytp-ce-channel.ytp-ce-element
-www.youtube.com##.ytp-ce-playlist.ytp-ce-element
-www.youtube.com##.autonav-endscreen.ytp-player-content.html5-endscreen
-www.youtube.com##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen
-www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer:has-text(Shorts)
-www.youtube.com##.ytp-ce-size-1280
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text(/People also watched/)
-www.youtube.com##.ytp-paid-content-overlay
-##ytd-thumbnail-overlay-toggle-button-renderer
+youtube.com##.ytp-ce-element.ytp-ce-element-show, .ytp-ce-element-shadow, .ytp-ce-covering-overlay, .ytp-ce-covering-image, .ytp-ce-video.ytp-ce-element, .ytp-ce-channel.ytp-ce-element, .ytp-ce-playlist.ytp-ce-element, .autonav-endscreen.ytp-player-content.html5-endscreen, .ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen, .ytp-ce-size-1280, .ytp-paid-content-overlay
+youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer:has-text(Shorts)
+youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope > .ytd-shelf-renderer.style-scope:has-text(/People also watched/)
+youtube.com##ytd-thumbnail-overlay-toggle-button-renderer
 ! SideBar video list
-www.youtube.com##ytd-watch-next-secondary-results-renderer
-www.youtube.com###action-menu
+youtube.com##ytd-watch-next-secondary-results-renderer, #action-menu
 ! Navigation
-www.youtube.com##ytd-guide-section-renderer:has-text(/Youtube Kids/i)
-www.youtube.com##ytd-guide-section-renderer:has-text(/Explore/)
-www.youtube.com##ytd-item-section-renderer:has-text(/Recommended videos/i)
-www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Shorts/)
-www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/YouTube Premium/)
-www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Sport/)
-www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Fashion & beauty/)
-www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Movies & shows/)
-www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Learning/)
-www.youtube.com##ytd-mini-guide-renderer
-! === Below from (https://www.reddit.com/r/uBlockOrigin/comments/145hz4p/filters_for_youtube_to_fix_the_3_videos_per_row/) ===
-! Hide profile pictures below video thumbnails on the homepage/subscriptions page
-www.youtube.com###avatar.ytd-rich-grid-media
-www.youtube.com###avatar-link.ytd-rich-grid-media
-www.youtube.com###home-page-skeleton .channel-avatar
+youtube.com##ytd-guide-section-renderer:has-text(/Youtube Kids/i), ytd-guide-section-renderer:has-text(/Explore/)
+youtube.com##ytd-item-section-renderer:has-text(/Recommended videos/i)
+youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Shorts/), ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/YouTube Premium/), ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Sport/), ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Fashion & beauty/), ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Movies & shows/), ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(/Learning/)
+youtube.com##ytd-mini-guide-renderer
+! Hide profile pictures below video thumbnails on the homepage / subscriptions page
+youtube.com###avatar.ytd-rich-grid-media, #avatar-link.ytd-rich-grid-media
+youtube.com###home-page-skeleton .channel-avatar
 ! ???????????
-www.youtube.com##ytd-notification-multi-action-renderer[shelf-dismissal]:style(margin-top: 12px !important)
-www.youtube.com##.ytp-inline-preview-ui .ytp-subtitles-button, .ytp-inline-preview-ui .ytp-mute-button:style(display: block !important)
-www.youtube.com##.ytp-inline-preview-mode button.ytp-subtitles-button.ytp-button::after:style(margin: 0 8px !important)
-! Remove labels from Thanks/Clip/Save buttons
-www.youtube.com##ytd-menu-renderer:not([condensed]) #top-level-buttons-computed ytd-button-renderer:nth-child(2) .yt-spec-button-shape-next--button-text-content, #flexible-item-buttons .yt-spec-button-shape-next__button-text-content
-www.youtube.com##ytd-menu-renderer:not([condensed]) #top-level-buttons-computed ytd-button-renderer:nth-child(2),  #flexible-item-buttons .yt-spec-button-shape-next.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next--mono, #flexible-item-buttons .yt-spec-button-shape-next--disabled.yt-spec-button-shape-next--tonal:style(width: 36px !important; padding: 0 !important)
-www.youtube.com##ytd-menu-renderer:not([condensed]) #top-level-buttons-computed ytd-button-renderer:nth-child(2) .yt-spec-button-shape-next__icon, #flexible-item-buttons .yt-spec-button-shape-next__icon:style( margin: 0 !important)
+youtube.com##ytd-notification-multi-action-renderer[shelf-dismissal]:style(margin-top: 12px !important)
+youtube.com##.ytp-inline-preview-ui .ytp-subtitles-button, .ytp-inline-preview-ui .ytp-mute-button:style(display: block !important)
+youtube.com##.ytp-inline-preview-mode button.ytp-subtitles-button.ytp-button::after:style(margin: 0 8px !important)
+! Remove labels from Thanks / Clip / Save buttons
+youtube.com##ytd-menu-renderer:not([condensed]) #top-level-buttons-computed ytd-button-renderer:nth-child(2) .yt-spec-button-shape-next--button-text-content, #flexible-item-buttons .yt-spec-button-shape-next__button-text-content
+youtube.com##ytd-menu-renderer:not([condensed]) #top-level-buttons-computed ytd-button-renderer:nth-child(2),  #flexible-item-buttons .yt-spec-button-shape-next.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next--mono, #flexible-item-buttons .yt-spec-button-shape-next--disabled.yt-spec-button-shape-next--tonal:style(width: 36px !important; padding: 0 !important)
+youtube.com##ytd-menu-renderer:not([condensed]) #top-level-buttons-computed ytd-button-renderer:nth-child(2) .yt-spec-button-shape-next__icon, #flexible-item-buttons .yt-spec-button-shape-next__icon:style( margin: 0 !important)
 ! Hides irrelevants search results
-www.youtube.com##[is-search] ytd-shelf-renderer.ytd-item-section-renderer:not(ytd-channel-renderer + ytd-shelf-renderer)
-www.youtube.com##[is-search] ytd-horizontal-card-list-renderer.ytd-item-section-renderer:not(:first-child)
-www.youtube.com##[is-search] ytd-exploratory-results-renderer.ytd-item-section-renderer
+youtube.com##[is-search] ytd-shelf-renderer.ytd-item-section-renderer:not(ytd-channel-renderer + ytd-shelf-renderer)
+youtube.com##[is-search] ytd-horizontal-card-list-renderer.ytd-item-section-renderer:not(:first-child)
+youtube.com##[is-search] ytd-exploratory-results-renderer.ytd-item-section-renderer
 ! Hides Shorts from search results
-www.youtube.com##ytd-thumbnail #thumbnail.ytd-thumbnail[href*="/shorts/"]:upward(ytd-video-renderer)
+youtube.com##ytd-thumbnail #thumbnail.ytd-thumbnail[href*="/shorts/"]:upward(ytd-video-renderer)
 ! Hides YouTube mixes
-www.youtube.com##.ytd-rich-item-renderer:upward([href*="start_radio=1"])
-www.youtube.com##ytd-compact-radio-renderer
-www.youtube.com##ytd-radio-renderer
+youtube.com##.ytd-rich-item-renderer:upward([href*="start_radio=1"])
+youtube.com##ytd-compact-radio-renderer
+youtube.com##ytd-radio-renderer
 ! Hides big blocky Channel Info
-www.youtube.com##[id="infocards-section"][class="style-scope ytd-video-description-infocards-section-renderer"]
-www.youtube.com##[id="items"][class="style-scope ytd-structured-description-content-renderer"]
+youtube.com##[id="infocards-section"][class="style-scope ytd-video-description-infocards-section-renderer"], [id="items"][class="style-scope ytd-structured-description-content-renderer"]
