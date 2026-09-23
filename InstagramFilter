@@ -1,0 +1,4 @@
+instagram.com##span:has-text(/^Ad$/):upward(article)
+instagram.com##span:has-text(/^Sponsored$/):upward(article)
+instagram.com##span:has-text(/^AI content$/):upward(article)
+instagram.com##span:has-text(/^Suggested for you$/):upward(article)
