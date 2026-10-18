@@ -1,3 +1,5 @@
+! Title: PlatformFiltersForQOL/TwitterSavedSearches
+! Expires: 7 days
 ! Hides undeletable saved searches 
 twitter.com##[id="search-results"]
 twitter.com##[data-testid="typeaheadSavedSearchesContainer"]
