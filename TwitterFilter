@@ -1,3 +1,5 @@
+! Title: PlatformFiltersForQOL/TwitterFilter
+! Expires: 12 hours
 x.com##div:has(> [data-testid$="_scores_sidebar"])
 x.com##div:has(> [data-testid$="news_sidebar"])
 x.com##[id="search-results"]
