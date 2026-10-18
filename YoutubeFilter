@@ -1,3 +1,5 @@
+! Title: PlatformFiltersForQOL/YoutubeFilter
+! Expires: 12 hours
 youtube.com##ytm-shorts-lockup-view-model-v2:upward(grid-shelf-view-model)
 youtube.com###engagement-panel-scrim
 youtube.com##ytm-paid-content-overlay-renderer
