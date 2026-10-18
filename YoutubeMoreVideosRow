@@ -1,3 +1,5 @@
+! Title: PlatformFiltersForQOL/YoutubeMoreVideosRow
+! Expires: 12 hours
 ! More videos per row
 www.youtube.com##.ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 6 !important)
 www.youtube.com##.ytp-inline-preview-mode .ytp-paid-content-overlay
