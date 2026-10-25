@@ -1,4 +1,4 @@
-! Title: PlatformFiltersForQOL/TwitterSquarePFP
+! Title: PFQ/TwitterSquarePFP
 ! Expires: 12 hours
 ! Changes Circle PFP to Square PFP
 x.com##div[data-testid^="UserAvatar-"] div div div div:style(border-radius:10px!important;)
