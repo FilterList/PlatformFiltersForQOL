@@ -1,4 +1,4 @@
-! Title: PlatformFiltersForQOL/YoutubeExpandedDescription
+! Title: PFQ/YoutubeExpandedDescription
 ! Expires: 12 hours
 ! Always expanded video description
 www.youtube.com##ytd-watch-metadata, ytd-expander.ytd-video-secondary-info-renderer tp-yt-paper-button
