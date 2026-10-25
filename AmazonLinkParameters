@@ -1,4 +1,4 @@
-! Title: PlatformFiltersForQOL/AmazonLinkParameters
+! Title: PFQ/AmazonLinkParameters
 ! Expires: 3 days
 ! Removes Amazon URL
 $removeparam=/^p[fd]_rd_[a-z]*=/,domain=amazon.*
