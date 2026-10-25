@@ -1,4 +1,4 @@
-! Title: PlatformFiltersForQOL/TwitterSavedSearches
+! Title: PFQ/TwitterSavedSearches
 ! Expires: 7 days
 ! Hides undeletable saved searches 
 twitter.com##[id="search-results"]
