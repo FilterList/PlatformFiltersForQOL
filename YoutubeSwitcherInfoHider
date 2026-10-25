@@ -1,4 +1,4 @@
-! Title: PlatformFiltersForQOL/YoutubeSwitcherInfoHider
+! Title: PFQ/YoutubeSwitcherInfoHider
 ! Expires: 12 hours
 ! For Account Switcher, A band-aid approach to hide Youtube Info
 ! youtube.com###contents > .ytd-account-section-list-renderer.style-scope:has-text(/No channel/)
