@@ -1,11 +1,6 @@
 ! Title: PFQ/TwitterFilter
 ! Expires: 12 hours
-||x.com^$removeparam=s
-||x.com^$removeparam=a
-||x.com^$removeparam=t
-||twitter.com^$removeparam=s
-||twitter.com^$removeparam=a
-||twitter.com^$removeparam=t
+$removeparam=/^(s|t|a)$/,domain=x.com|twitter.com,doc
 x.com##div:has(> [data-testid$="_scores_sidebar"])
 x.com##div:has(> [data-testid$="news_sidebar"])
 x.com##[id="search-results"]
