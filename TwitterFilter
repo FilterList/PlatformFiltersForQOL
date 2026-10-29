@@ -1,6 +1,7 @@
 ! Title: PFQ/TwitterFilter
 ! Expires: 12 hours
 $removeparam=/^(s|t|a)$/,domain=x.com|twitter.com,doc
+x.com##div > [aria-label="Share post"]:upward(div)
 x.com##div:has(> [data-testid$="_scores_sidebar"])
 x.com##div:has(> [data-testid$="news_sidebar"])
 x.com##[id="search-results"]
